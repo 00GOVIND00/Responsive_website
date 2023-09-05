@@ -1,0 +1,148 @@
+/* .body {
+    background-color: rgb(244, 244, 240);
+    background-image: url(/assets/images/background.jpg);
+    object-fit: cover;
+    height: 100%;
+
+} */
+
+.navbar {
+    background-color: #ececee;
+    opacity: 0.8;
+
+
+
+}
+
+
+
+.container-fluid a {
+    color: #F53106;
+
+}
+
+.container-fluid a:hover {
+    color: rgb(0, 0, 0);
+}
+
+ul {
+    background-color: rgb(226, 225, 218);
+}
+
+li {
+    background-color: #ececee;
+}
+
+li a:hover {
+    background-color: rgb(226, 225, 218);
+
+}
+
+.card {
+    height: 100%;
+    border: none;
+    background-color: rgba(234, 220, 220, 0.2);
+}
+
+.logo-card .card {
+    position: relative;
+    filter: blur(2px);
+}
+
+.logo-card-body {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.logo-card:hover .logo-card-body {
+    opacity: 1;
+    position: relative;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
+}
+
+.logo-card .card:hover {
+    transform: scale(.95);
+    filter: blur(0);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+
+}
+
+
+
+
+
+.c-item {
+    height: 480px;
+
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.img-fit {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+.card div {
+    display: grid;
+    place-items: center;
+}
+
+.card-img-left {
+    width: 100%;
+    height: 500px;
+
+}
+
+.gam-lap {
+    height: 500px;
+}
+
+.btn :hover {
+    box-shadow: 5px;
+}
+
+
+
+
+
+
+
+@media(max-width:768px) {
+    .body {
+        min-height: 30vh;
+    }
+
+    .img-fit {
+        aspect-ratio: 1.45/1;
+    }
+
+    .car-img-fit {
+        aspect-ratio: 1.45/1;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+}
